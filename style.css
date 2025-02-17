@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    height: auto; /* Prevent forced height */
+    justify-content: center;
+    align-items: center;
+    font-family: "Young Serif", sans-serif;
+    padding: 20px;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+h1{
+    font-weight: 700;
+    color:  hsl(24, 5%, 18%);
+    margin-block: .5rem;
+}
+h2{
+    font-weight: 600;
+    color:hsl(14, 45%, 36%);
+    margin-block: .5rem;
+}
+p{
+    font-size: 16px !important;
+    margin-bottom: .5rem;
+}
+ul,ol{
+    padding-left: 1.2rem;
+}
+li{
+    padding-inline: 1.2rem;
+    padding-block: .6rem;
+    
+}
+.recipe-card {
+    max-width: 70%;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+.h1{
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
+    color:  hsl(24, 5%, 18%);
+    color:hsl(14, 45%, 36%);
+   
+    color:  hsl(330, 100%, 98%);
+}
+
+
+.image-card{
+    margin-block: 1rem;
+}
+.h6{
+    font-size: 1.2rem;
+    color:  hsl(332, 51%, 32%);
+}
+.card-preparation{
+ background-color: hsl(330, 100%, 98%);
+padding:1rem;
+margin-block: 1rem;
+}
+table{
+    width: 100%;
+    padding: 1rem;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid hsl(24, 5%, 18%);
+  }
+
+.td{
+    font-weight: bold;
+}
+table .td{
+    color:hsl(14, 45%, 36%);
+}
+
+@media (max-width: 768px) {
+    body {
+        display: block;
+        padding: 10px;
+    }
+
+    .recipe-card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    p, li {
+        font-size: 14px;
+    }
+}
